@@ -1,5 +1,5 @@
 import styles from "../styles/navbar.module.scss";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const nav = [
   { id: 1, title: "home", url: "/" },
@@ -12,8 +12,15 @@ export default function NavBar() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.content}>
+        <Link to="/">
+          <img
+            width={80}
+            src="https://cdn-icons-png.flaticon.com/512/10108/10108552.png"
+            alt=""
+          />
+        </Link>
         {nav.map(({ id, title, url }) => (
-          <NavLink key={id} to={url}>
+          <NavLink activeClassName="active" key={id} to={url}>
             {title}
           </NavLink>
         ))}
