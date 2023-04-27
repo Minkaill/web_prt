@@ -11,8 +11,8 @@
   color: #6c6c6c;
   line-height: 40px;
   display: flex;
-  flex-wrap: wrap;
   transition-duration: 0.3s;
+  flex-direction: column;
   cursor: pointer;
 
   a {
@@ -32,12 +32,15 @@
     align-items: center;
     justify-content: space-between;
     margin: 0;
+    position: relative;
     display: flex;
   }
   .content {
     display: flex;
     width: 200px;
     align-items: center;
+    position: absolute;
+    left: -10px;
 
     img {
       display: none;
