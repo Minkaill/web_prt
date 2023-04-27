@@ -26,7 +26,6 @@ a {
 }
 
 .wrapper {
-  width: 900px;
   height: 80vh;
   display: flex;
   margin: auto;
@@ -36,6 +35,25 @@ a {
 
 .active {
   background-color: #262626;
+  color: white;
   padding: 5px 10px;
   border-radius: 8px;
+}
+
+@media (max-width: 1023px) {
+  .wrapper {
+    display: flex;
+    justify-content: left;
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 50px 20px;
+  }
 }

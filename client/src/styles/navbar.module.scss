@@ -1,16 +1,17 @@
 .wrapper {
-  width: 150px;
+  width: 80px;
   height: 400px;
   display: flex;
+  margin-right: 50px;
   align-items: flex-start;
 }
 
 .content {
-  width: 150px;
+  width: 80px;
   color: #6c6c6c;
-  line-height: 35px;
+  line-height: 40px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   transition-duration: 0.3s;
   cursor: pointer;
 
@@ -18,9 +19,33 @@
     width: fit-content;
     transition-duration: 0.3s;
     &:hover {
-      width: fit-content;
       color: white;
       transition-duration: 0.3s;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 200px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    display: flex;
+  }
+  .content {
+    display: flex;
+    width: 200px;
+    align-items: center;
+
+    img {
+      display: none;
+    }
+
+    a {
+      margin-right: 10px;
+      height: fit-content;
     }
   }
 }
