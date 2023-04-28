@@ -13,7 +13,13 @@
   display: flex;
   transition-duration: 0.3s;
   flex-direction: column;
+  position: relative;
   cursor: pointer;
+
+  img {
+    position: relative;
+    left: -5px;
+  }
 
   a {
     width: fit-content;

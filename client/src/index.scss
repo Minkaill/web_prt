@@ -26,11 +26,10 @@ a {
 }
 
 .wrapper {
-  height: 80vh;
+  height: 100vh;
   display: flex;
-  margin: auto;
+  margin: 50px auto;
   justify-content: center;
-  align-items: center;
 }
 
 .active {
@@ -44,7 +43,7 @@ a {
   .wrapper {
     display: flex;
     justify-content: left;
-    margin: 0 20px;
+    margin: 50px 20px;
   }
 }
 

@@ -1,0 +1,26 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  justify-content: space-between;
+  border: 1px solid #1b1b1b;
+  padding: 16px;
+}
+
+.icon {
+  display: flex;
+  margin: 0 !important;
+  align-items: center;
+
+  svg {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-left: 10px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}

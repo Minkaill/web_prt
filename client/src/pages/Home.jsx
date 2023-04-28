@@ -17,7 +17,7 @@ export default function Home() {
       </a>
       <p data-aos="fade-left" data-aos-duration="1200" data-aos-delay="50">
         Привет, я Минкаил. Я <b>Frontend - разработчик</b>, занимаюсь
-        разработкой пользовательского интерефейса!
+        разработкой <br /> пользовательского интерефейса!
       </p>
       <div className={styles.portfolio}>
         <img
