@@ -8,8 +8,8 @@ export default function NavButton({ link, title }) {
     <div
       className={styles.wrapper}
       data-aos="fade-up"
-      data-aos-duration="3000"
-      data-aos-delay="450"
+      data-aos-duration="1500"
+      data-aos-delay="100"
     >
       <a href={link} target="_blank" className={styles.icon}>
         {title === "telegram" && <ImTelegram />}

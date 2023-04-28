@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.wrapper}>
       <a
         data-aos="fade-left"
-        data-aos-duration="800"
+        data-aos-duration="400"
         data-aos-delay="50"
         href="https://github.com/Minkaill"
         target="_blank"
@@ -22,7 +22,7 @@ export default function Home() {
       <div className={styles.portfolio}>
         <img
           data-aos="fade-up"
-          data-aos-duration="1600"
+          data-aos-duration="600"
           data-aos-delay="50"
           src="https://img.hhcdn.ru/photo/722531979.jpeg?t=1682601992&h=a2uEF1wVvKSRmCjFALdcyQ"
           alt=""
@@ -30,7 +30,7 @@ export default function Home() {
         <div className={styles.links}>
           <div
             data-aos="fade-left"
-            data-aos-duration="2000"
+            data-aos-duration="800"
             data-aos-delay="50"
             className={styles.links__item}
           >
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-duration="2400"
+            data-aos-duration="1000"
             data-aos-delay="50"
             className={styles.links__item}
           >
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-duration="2800"
+            data-aos-duration="1200"
             data-aos-delay="50"
             className={styles.links__item}
           >
@@ -62,7 +62,7 @@ export default function Home() {
         </div>
       </div>
 
-      <p data-aos="fade-up" data-aos-duration="3000" data-aos-delay="50">
+      <p data-aos="fade-up" data-aos-duration="1400" data-aos-delay="50">
         Еще с ранних лет имел интерес к программированию. <br /> Добросовестно
         отношусь к любой работе, стремлюсь к знаниям и буду рад сотрудничать!
         <br />

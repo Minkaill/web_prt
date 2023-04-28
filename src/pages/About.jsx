@@ -4,14 +4,14 @@ import styles from "../styles/about.module.scss";
 export default function About() {
   return (
     <div className={styles.wrapper}>
-      <a data-aos="fade-left" data-aos-duration="800" data-aos-delay="50">
+      <a data-aos="fade-left" data-aos-duration="400" data-aos-delay="50">
         About me
       </a>
-      <p data-aos="fade-left" data-aos-duration="1200" data-aos-delay="50">
+      <p data-aos="fade-left" data-aos-duration="600" data-aos-delay="50">
         Привет, я Минкаил. Я <b>Frontend - разработчик</b>, занимаюсь
         разработкой <br /> пользовательского интерефейса!
       </p>
-      <p data-aos="fade-up" data-aos-duration="1600" data-aos-delay="50">
+      <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">
         С детства я был увлечен программированием - не знаю, возможно, это было{" "}
         <br />
         вызвано моей любовью к шифрованию печенек в кухне. В любом случае,{" "}
@@ -21,13 +21,13 @@ export default function About() {
       <hr
         className={styles.hr}
         data-aos="fade-up"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
         data-aos-delay="50"
       />
       <p
         className={styles.hr}
         data-aos="fade-up"
-        data-aos-duration="2300"
+        data-aos-duration="1100"
         data-aos-delay="50"
       >
         Я страстный любитель знаний и провожу много времени, изучая новые темы и
@@ -38,7 +38,7 @@ export default function About() {
       <p
         className={styles.hr}
         data-aos="fade-up"
-        data-aos-duration="2600"
+        data-aos-duration="1200"
         data-aos-delay="50"
       >
         Кроме того, я наслаждаюсь общением с другими людьми и провожу свое
@@ -49,7 +49,7 @@ export default function About() {
       <p
         className={styles.hr}
         data-aos="fade-up"
-        data-aos-duration="2900"
+        data-aos-duration="1300"
         data-aos-delay="50"
       >
         Я убежден, что знания и образование являются ключом к успеху и росту,
@@ -63,7 +63,7 @@ export default function About() {
       <p
         className={styles.hr}
         data-aos="fade-up"
-        data-aos-duration="3000"
+        data-aos-duration="1400"
         data-aos-delay="50"
       >
         В целом, я уверен в себе и своих способностях, и готов принимать новые
