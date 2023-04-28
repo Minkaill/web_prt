@@ -50,6 +50,7 @@ a {
 @media (max-width: 768px) {
   .wrapper {
     display: flex;
+    height: 180vh;
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
