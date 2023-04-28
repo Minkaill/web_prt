@@ -1,17 +1,20 @@
 .wrapper {
   height: 400px;
   display: flex;
+  width: 800px;
   flex-direction: column;
 
   a {
     font-family: "Kaisei Tokumin", serif !important;
     font-weight: 100;
     font-size: 30px;
+    color: #e5e5e5 !important;
   }
 
   p {
     margin: 20px 0;
     font-weight: 100;
+    color: #e5e5e5 !important;
   }
 }
 
@@ -47,5 +50,11 @@
 
   svg {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: fit-content;
   }
 }

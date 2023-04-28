@@ -1,0 +1,30 @@
+.wrapper {
+  height: 400px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    font-weight: 100;
+    font-size: 30px;
+    color: #e5e5e5 !important;
+    margin: 10px 0;
+    font-family: "Kaisei Tokumin", serif !important;
+  }
+
+  p {
+    margin: 10px 0;
+    color: #e5e5e5 !important;
+  }
+}
+
+.hr {
+  border-color: #404040;
+  margin: 25px 0;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: fit-content;
+  }
+}

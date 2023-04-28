@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import About from "./pages/About";
 
 export default function App() {
   React.useEffect(() => {
@@ -15,6 +16,7 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );
